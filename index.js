@@ -1,10 +1,13 @@
-console.log("Hey,Arnold");
+const objectA = {
+  a:20,
+  b:true
+}
+
+const objectB = objectA;
+objectB.a = 60;
+objectA.c = "ABC";
+objectB.d = "DEF";
 
 
-let a;
-console.log(a);
-
-
-myName = "MIke";
-console.log(myName);
-
+console.log(objectB.a);
+console.log(objectA);
